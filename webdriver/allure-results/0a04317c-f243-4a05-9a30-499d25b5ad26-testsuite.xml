@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666838756995' stop='1666838780494'>
+    <name>Scheduler</name>
+    <title>Scheduler</title>
+    <test-cases>
+        <test-case start='1666838756995' status='failed' stop='1666838780494'>
+            <name>"after each" hook for Scheduler</name>
+            <title>"after each" hook for Scheduler</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect window to have title
+                
+                Expected: "Login"
+                Received: "Group week view"</message>
+                <stack-trace>Error: Expect window to have title
+                
+                Expected: "Login"
+                Received: "Group week view"
+                    at Context.&lt;anonymous> (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\test\specs\example.e2e.js:42:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
