@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666840572418' stop='1666840605900'>
+    <name>Scheduler</name>
+    <title>Scheduler</title>
+    <test-cases>
+        <test-case start='1666840572419' status='passed' stop='1666840590286'>
+            <name>Create a regular appointment SUCCESSFULLY</name>
+            <title>Create a regular appointment SUCCESSFULLY</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666840590286' status='broken' stop='1666840605900'>
+            <name>"after each" hook for Scheduler</name>
+            <title>"after each" hook for Scheduler</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;button type="button" id="cloudHeader-userName-grn" class="cloudHeader-userName-grn button_style_off_grn" aria-controls="cloudHeader-userProfile-grn" aria-haspopup="true" aria-expanded="false">...&lt;/button> is not clickable at point (687, 24). Other element would receive the click: &lt;div id="overlay" class="overlay" style="z-index: 3001; width: 1004px; height: 1887px;">&lt;/div>
+                  (Session info: chrome=107.0.5304.63)</message>
+                <stack-trace>element click intercepted: element click intercepted: Element &lt;button type="button" id="cloudHeader-userName-grn" class="cloudHeader-userName-grn button_style_off_grn" aria-controls="cloudHeader-userProfile-grn" aria-haspopup="true" aria-expanded="false">...&lt;/button> is not clickable at point (687, 24). Other element would receive the click: &lt;div id="overlay" class="overlay" style="z-index: 3001; width: 1004px; height: 1887px;">&lt;/div>
+                  (Session info: chrome=107.0.5304.63)
+                    at getErrorFromResponseBody (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Element.wrapCommandFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

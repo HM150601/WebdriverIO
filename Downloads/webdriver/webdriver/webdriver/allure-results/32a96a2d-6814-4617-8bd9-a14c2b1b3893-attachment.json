@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"schedule/delete\"]/table/tbody/tr[1]/td/div[2]/span/label"
+}

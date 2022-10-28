@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666854190649' stop='1666854213666'>
+    <name>Verify Creating A Regular Appointment</name>
+    <title>Verify Creating A Regular Appointment</title>
+    <test-cases>
+        <test-case start='1666854190649' status='passed' stop='1666854205531'>
+            <name>Create a regular appointment SUCCESSFULLY</name>
+            <title>Create a regular appointment SUCCESSFULLY</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666854205531' status='passed' stop='1666854213665'>
+            <name>Create a regular appointment UNSUCCESSFULLY</name>
+            <title>Create a regular appointment UNSUCCESSFULLY</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

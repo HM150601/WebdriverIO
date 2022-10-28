@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666844220394' stop='1666844232460'>
+    <name>Verify Creating A Regular Appointment</name>
+    <title>Verify Creating A Regular Appointment</title>
+    <test-cases>
+        <test-case start='1666844220394' status='broken' stop='1666844232459'>
+            <name>"after each" hook for Verify Creating A Regular Appointment</name>
+            <title>"after each" hook for Verify Creating A Regular Appointment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "#cloudHeader-userName-grn" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#cloudHeader-userName-grn" because element wasn't found
+                    at implicitWait (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async GWViewPage.dropDown (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\test\pageobjects\gwview.page.js:14:9)
+                    at async Context.&lt;anonymous> (C:\Users\Tran Minh Thu\Documents\Thư - Garoon\topic6\webdriver\webdriver\test\specs\example.e2e.js:45:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

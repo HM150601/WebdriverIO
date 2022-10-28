@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666858793952' stop='1666858822103'>
+    <name>Verify Creating A Regular Appointment</name>
+    <title>Verify Creating A Regular Appointment</title>
+    <test-cases>
+        <test-case start='1666858793953' status='failed' stop='1666858812063'>
+            <name>"before each" hook for Verify Creating A Regular Appointment</name>
+            <title>"before each" hook for Verify Creating A Regular Appointment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Expect window to have url
+                
+                Expected: "https://internship-qa-1.cybozu-dev.com/"
+                Received: "https://internship-qa-1.s.cybozu-dev.com/"</message>
+                <stack-trace>Error: Expect window to have url
+                
+                Expected: "https://internship-qa-1.cybozu-dev.com/"
+                Received: "https://internship-qa-1.s.cybozu-dev.com/"
+                    at Context.&lt;anonymous> (C:\Users\cybozu\Downloads\webdriver\webdriver\webdriver\test\specs\team1.js:17:31)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666858812063' status='broken' stop='1666858822101'>
+            <name>"after each" hook for Verify Creating A Regular Appointment</name>
+            <title>"after each" hook for Verify Creating A Regular Appointment</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.63'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "#cloudHeader-userName-grn" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "#cloudHeader-userName-grn" because element wasn't found
+                    at implicitWait (C:\Users\cybozu\Downloads\webdriver\webdriver\webdriver\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\cybozu\Downloads\webdriver\webdriver\webdriver\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\cybozu\Downloads\webdriver\webdriver\webdriver\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async GWViewPage.dropDown (C:\Users\cybozu\Downloads\webdriver\webdriver\webdriver\test\pageobjects\gwview.page.js:12:9)
+                    at async Context.&lt;anonymous> (C:\Users\cybozu\Downloads\webdriver\webdriver\webdriver\test\specs\team1.js:45:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

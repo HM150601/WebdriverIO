@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//*[@id=\"smart_main_menu_part\"]/span[1]/a"
+}
